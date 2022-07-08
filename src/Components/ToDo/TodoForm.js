@@ -28,7 +28,11 @@ const TodoForm = () => {
     return (
         <div>
             <form className={styles.todo__form}>
-                <input className={styles.todo__form__input} placeholder={"Enter your task"} type={"text"} value={name} onChange={handleChange} onKeyDown={handleKeyDown}/>
+                <input className={styles.todo__form__input}
+                       placeholder={"Enter your task"}
+                       type={"text"} value={name}
+                       onChange={handleChange}
+                       onKeyDown={handleKeyDown}/>
             </form>
         </div>
     );
