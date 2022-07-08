@@ -1,5 +1,5 @@
-import React from 'react';
-import styles from "./todo.module.sass";
+import React from 'react'
+import styles from './todo.module.sass'
 
 const TodoListItem = () => {
     return (
@@ -7,7 +7,7 @@ const TodoListItem = () => {
             <div className={styles.todo__item__icon}></div>
             <p className={styles.todo__item__title}>Call brother</p>
         </li>
-    );
+    )
 }
 
-export default TodoListItem;
+export default TodoListItem

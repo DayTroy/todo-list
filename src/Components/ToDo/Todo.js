@@ -1,8 +1,8 @@
-import styles from './todo.module.sass';
-import React, {useState} from "react";
-import HeaderLogo from './HeaderLogo';
-import TodoForm from "./TodoForm";
-import TodoCard from "./TodoCard";
+import styles from './todo.module.sass'
+import React from 'react'
+import HeaderLogo from './HeaderLogo'
+import TodoForm from './TodoForm'
+import TodoCard from './TodoCard'
 
 const Todo = () => {
     return (
@@ -13,4 +13,4 @@ const Todo = () => {
         </div>
     )
 }
-export default Todo;
+export default Todo

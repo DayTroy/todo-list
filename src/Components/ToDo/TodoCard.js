@@ -1,7 +1,7 @@
-import React from 'react';
-import styles from "./todo.module.sass";
-import TodoList from "./TodoList";
-import CardHeader from "./CardHeader";
+import React from 'react'
+import styles from './todo.module.sass'
+import TodoList from './TodoList'
+import CardHeader from './CardHeader'
 
 const TodoCard = () => {
     return (
@@ -9,7 +9,7 @@ const TodoCard = () => {
             <CardHeader/>
             <TodoList/>
         </div>
-    );
+    )
 }
 
-export default TodoCard;
+export default TodoCard
